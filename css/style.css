@@ -1,42 +1,10 @@
-#container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 75px);
-  grid-gap: 20px;
-  justify-content: space-between;
+<style>
+.tabel_center {
+width: 100%;
+border: 1px solid #000;
+margin: auto;
 
-  width: 500px;
-  border: 1px solid black;
-  resize: horizontal;
-  overflow: hidden;
+
 }
-#rectangle {
-    width: 120px;
-    height: 220px;
-    background: #4da1f7;
-    border-radius: 24px ;
-}
-#rectangle1 {
-    width: 120px;
-    height: 220px;
-    background: #4da1f7;
-    border-radius: 24px ;
-}
-#rectangle2 {
-    width: 120px;
-    height: 220px;
-    background: #4da1f7;
-    border-radius: 24px ;
-}
-#rectangle3 {
-    width: 120px;
-    height: 220px;
-    background: #4da1f7;
-    border-radius: 24px ;
-}
-#rectangle4 {
-    position: 100px;
-    width: 120px;
-    height: 220px;
-    background: #4da1f7;
-    border-radius: 24px ;
-}
+
+</style>
